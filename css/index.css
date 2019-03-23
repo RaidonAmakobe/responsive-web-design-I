@@ -124,45 +124,32 @@ header .header-right {
 	border-bottom: 1px solid black;
 }
 
-.features {
-	display: inline-block;
-	width: 49.5%;
-}
 
-.about {
-	display: inline-block;
-	width: 49.5%;
-}
 
 .middle-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
 .middle-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	
 }
 
 .bottom-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	border-bottom: 1px solid black;
 }
 
-.services {
-	display: inline-block;
-	width: 33%;
-}
-
-.product {
-	display: inline-block;
-	width: 33%;
-}
-
-.vision {
-	display: inline-block;
-	width: 33%;
-}
 
 footer .contact {
 	padding-top: 40px;
@@ -181,3 +168,7 @@ footer .email {
 	padding: 30px 0 150px 0;
 }
 
+.nav-container {
+	display: flex;
+	justify-content: space-around;
+}
