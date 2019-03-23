@@ -183,6 +183,20 @@ footer .email {
 	
 	}
 
+	.lam {
+		display: flex;
+		justify-content: center;
+		position: relative;
+		padding: 20px;
+		border-bottom: 1px solid grey;
+		width: 185%;
+	}
+
+	.place-holder {
+		border: 1px solid red;
+		display: flex;
+		order: 7;
+	}
 
 	.services,
 	.product,
