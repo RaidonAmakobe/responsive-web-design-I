@@ -1,7 +1,7 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 /* I will be attending after hours tonight to complete this and the the strech project. You will rue the day you wouldn't let me use flexbox, JoshKnell son.*/
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -15,8 +15,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -27,7 +27,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -67,159 +67,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
-body {
-	width: 67%;
-	margin: 0 auto;
-	padding-top: 30px;
-}
-
-nav a {
-	text-decoration: none;
-	color: gray;
-	margin: 0 60px 0 0; 
-	position: relative;
-	bottom: 10px;
-}
-
-nav .logo {
-	margin-top: 10px;
-}
-
-header h1 {
-	font-size: 70px;
-	margin: 40px 20px;
-	text-align: center;
-	padding-bottom: 40px;
-}
-
-header button {
-	background: white;
-	border: 1px solid gray;
-	color: gray;
-	padding: 5px 40px;
-	position: relative;
-	left: 85px;
-	bottom: 50px;
-}
-
-header {
-	display: flex;
-	flex: wrap;
-	justify-content: space-around;
-	
-}
-
-.header-right {
-	margin-bottom: 20px;
-}
-
-.header-left {
-	margin-top: 30px;
-	margin-left: 30px;
-}
-
-.main-header {
-	margin-top: 40px;
-	border-bottom: 1px solid black;
-}
-
-
-
-.middle-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.middle-img {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
-}
-
-.bottom-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	border-bottom: 1px solid black;
-}
-
-
-footer .contact {
-	padding-top: 40px;
-}
-
-footer address {
-	padding: 10px 0;
-}
-
-footer .email {
-	padding: 10px 0;
-}
-
-.footer-text {
-	text-align: center;
-	padding: 30px 0 150px 0;
-}
-
-.nav-container {
-	display: flex;
-	flex-wrap: flex;
-	justify-content: space-around;
-}
-
 @media only screen and (max-width: 500px) {
-	.nav-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 20px;
-	
-	}
-
-	.lam {
-		display: flex;
-		justify-content: center;
-		position: relative;
-		padding: 20px;
-		border-bottom: 1px solid grey;
-		width: 185%;
-	}
-
-	.place-holder {
+	.header-container {
+		display: grid;
+		justify-items: center;
 		border: 1px solid red;
-		display: flex;
-		order: 7;
 	}
-
-	.services,
-	.product,
-	.vision,
-	.features,
-	.about,
-	.contact
-	{
-		display: flex;
-		justify-content: center;
-		padding: 20px;
-		border-bottom: 1px solid gray;
-		width: 185%	;
-	}
-
-
-
-}
-
-@media only screen and (max-width: 800px) {
-
-}
-
-@media only screen and (min-width: 961px) {
 
 }
