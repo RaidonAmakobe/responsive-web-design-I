@@ -67,13 +67,38 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+button {
+	 padding: 5%;
+	 background-color: black;
+	 color: white;
+	 font-weight: bold;
+	 border: none;
+	 cursor:pointer;
+	 overflow: hidden;
+	 outline:none;
+}
 @media only screen and (max-width: 500px) {
 	.header-container {
 		display: grid;
-		grid-template-colums: auto;
+		grid-template-columns: auto;
 		align-items: center;
 		justify-items: center;
 	}
+	.body-container {
+		margin-top: 5%;
+		padding: 10%;
+		display: grid;
+		grid-template-columns: auto;
+
+	}
+
+h2 {
+	margin-top: 15%;
+}
+	.body-img {
+		display: none;
+	}
+
 
 .header {
 		text-align: center;
@@ -91,10 +116,14 @@ h1, h2, h3, h4, h5 {
 	display: none;
 }
 
-.body-container {
-	display: flex;
-	flex-direction: column;
-	margin-top: 40%;
+.button-thing {
+	padding: 5%;
+	border-bottom: 1px solid grey;
+	display: grid;
+	justify-items: center;
 }
 
+.vision {
+	border-bottom: 1px solid grey;
+}
 }
