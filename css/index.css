@@ -77,6 +77,7 @@ button {
 	 overflow: hidden;
 	 outline:none;
 }
+
 @media only screen and (max-width: 500px) {
 	.header-container {
 		display: grid;
@@ -123,7 +124,12 @@ h2 {
 	justify-items: center;
 }
 
-.vision {
+.body-vision {
+	padding-bottom: 20%;
 	border-bottom: 1px solid grey;
+}
+
+.footer {
+	margin-bottom: 10%;
 }
 }
