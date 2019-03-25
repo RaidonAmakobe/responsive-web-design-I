@@ -70,8 +70,31 @@ h1, h2, h3, h4, h5 {
 @media only screen and (max-width: 500px) {
 	.header-container {
 		display: grid;
+		grid-template-colums: auto;
+		align-items: center;
 		justify-items: center;
-		border: 1px solid red;
 	}
+
+.header {
+		text-align: center;
+		width: 100%;
+		padding: 5%;
+		border-bottom: 1px solid grey;
+	}
+
+.innovation {
+		font-size: 350%;
+		text-align: center;
+}
+
+.img {
+	display: none;
+}
+
+.body-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40%;
+}
 
 }
