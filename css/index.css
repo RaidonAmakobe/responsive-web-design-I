@@ -78,6 +78,16 @@ button {
 	 outline:none;
 }
 
+@media only screen and (max-width: 800px) {
+	.black-logo{
+		display: grid;
+		grid-template-columns: auto;
+		align-items: center;
+		justify-items: center;
+	}
+
+
+
 @media only screen and (max-width: 500px) {
 	.header-container {
 		display: grid;
